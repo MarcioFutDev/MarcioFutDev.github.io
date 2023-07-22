@@ -86,8 +86,8 @@ button:hover {
         border-radius: 10px;
         text-decoration: none;
         font-size: 12px;
-        margin-top: 150%;
-        margin-left: 8%;
+        margin-top: 100%;
+        margin-left: 40%;
         font-weight: bolder;
         text-shadow: 2px 2px 5px rgb(225, 235, 232);
         border: none;
@@ -138,3 +138,10 @@ button:hover {
         font-size: 13px;
         background-image: linear-gradient(rgba(78, 179, 78, 0.74), white, rgba(26, 189, 26, 0.603));
     }
+
+
+
+
+
+
+}
