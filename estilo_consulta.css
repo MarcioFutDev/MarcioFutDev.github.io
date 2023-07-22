@@ -79,12 +79,19 @@ button:hover {
     background-image: -webkit-linear-gradient(rgba(227, 240, 227, 0.822), rgba(164, 197, 16, 0.705), rgba(0, 128, 0, 0.562));
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     body {
-        background-image: url("fundo_pag_2.jpg");
+
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: top;
+        width: 150%;
+        height: 100px;
+        margin-bottom: 150%;
+
+
+
 
     }
 
@@ -97,7 +104,7 @@ button:hover {
         text-decoration: none;
         font-size: 12px;
         margin-top: -200%;
-        margin-left: 45%;
+        margin-left: -1%;
         font-weight: bolder;
         text-shadow: 2px 2px 5px rgb(225, 235, 232);
         border: none;
@@ -105,15 +112,13 @@ button:hover {
 
     .telapai {
         display: flex;
-        justify-content: center;
-        flex-direction: row;
         align-items: center;
         background: rgba(21, 194, 15, 0.404);
         padding: 10%;
-        width: 380px;
+        width: 365px;
         height: 85px;
-        margin-left: 18%;
-        margin-top: 28%;
+        margin-left: 1%;
+        margin-top: 45%;
         box-shadow: 5px 5px 12px rgb(9, 10, 2);
     }
 
