@@ -62,7 +62,8 @@ nav {
 
     body {
         background-size: cover;
-        background-repeat: repeat background-position: top;
+        background-repeat: repeat;
+        background-position: top;
         width: 100%;
         margin-bottom: 10%;
 
@@ -115,5 +116,5 @@ nav {
         font-weight: bolder;
         text-shadow: 2px 2px 5px rgb(45, 122, 103);
     }
-
+}
 
