@@ -48,12 +48,16 @@ nav {
 }
 
 #botao {
+    color: #093105;
+    text-decoration: none;
     font-size: 24px;
     font-weight: bolder;
-    text-shadow: 2px 2px 5px rgb(45, 122, 103);
-    text-decoration:none;
+    text-shadow: 10px 2px 15px rgb(13, 233, 178);
 }
-
+#botao:hover {
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgb(38, 151, 123);
+}
 @media screen and (max-width:768px) {
 
     body {
