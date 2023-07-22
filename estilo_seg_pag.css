@@ -94,19 +94,19 @@ a:hover {
     text-shadow: 2px 5px 5px black;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     body {
 
         background-size: cover;
         background-position: right;
-        width: 70%;
+        width: 65%;
         height: 50%;
     }
 
 
 
     .botao {
-        margin-left: 65%;
+        margin-left: 67%;
 
     }
 
@@ -114,11 +114,13 @@ a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        padding: 10%;
+        margin-top: -19% !important;
+
         background-image: none;
-        width: 60%;
+        width: 80%;
         height: 195%;
-        margin: 5% 0 0 45%;
+        margin: -40% 0 0 40%;
 
     }
 
@@ -127,20 +129,21 @@ a:hover {
         text-decoration: none;
         background: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 60%;
-        height: 140px;
+        width: 100%;
+        height: 125px;
         text-align: center;
-        padding-top: 45%;
+        padding-top: 50%;
+        font-size: 200%;
 
 
 
     }
 
     .consulta {
-        width: 60px;
+        width: 70px;
         position: absolute;
-        margin-left: -2%;
-        margin-top: 4.5%;
+        margin-left: -1%;
+        margin-top: -125%;
 
     }
 
@@ -148,15 +151,21 @@ a:hover {
         width: 70px;
         position: absolute;
         margin-left: 0%;
-        margin-top: 32%;
+        margin-top: -10%;
     }
 
     .exclusao {
         width: 95px;
         position: absolute;
         margin-left: 2%;
-        margin-top: 59%;
+        margin-top: 108%;
     }
+
+
+
+   
+    
+}
 
 
 
