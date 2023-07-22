@@ -58,7 +58,7 @@ nav {
     color: aliceblue;
     text-shadow: 2px 2px 5px rgb(38, 151, 123);
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     body {
        
