@@ -1,0 +1,145 @@
+body {
+    background-image: url("/imagens/fundo\ verde\ .jpg");
+    background-repeat: no-repeat;
+
+
+}
+
+.botao {
+    background-image: -webkit-linear-gradient(rgba(82, 214, 82, 0.822), rgba(144, 235, 151, 0.705), rgba(0, 128, 0, 0.562));
+    box-shadow: 2px 4px 15px rgb(255, 255, 255);
+    padding: 1%;
+    color: rgba(27, 68, 11, 0.774);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -300%;
+    margin-left: -1%;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(225, 235, 232);
+    border: none;
+}
+
+.telapai {
+
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    background: rgba(226, 238, 228, 0.575);
+    margin-left: 30%;
+    box-shadow: 9px 8px 15px rgba(7, 7, 6, 0.493);
+    margin-top: 0%;
+
+}
+
+p {
+
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#nome {
+
+    font-size: 20.5px;
+    margin-left: 20% !important;
+    font-weight: bolder;
+    margin-top: 4%;
+}
+
+#colab {
+    position: fixed;
+    margin-left: 8.5% !important;
+    margin-top: -3px;
+}
+
+button {
+    font-size: medium;
+    background-image: linear-gradient(rgba(78, 179, 78, 0.74), white, rgba(26, 189, 26, 0.603));
+}
+
+button:hover {
+    background-image: linear-gradient(rgba(157, 209, 14, 0.74), white, rgba(199, 218, 32, 0.603));
+}
+
+
+.botao:hover {
+    background-image: -webkit-linear-gradient(rgba(227, 240, 227, 0.822), rgba(164, 197, 16, 0.705), rgba(0, 128, 0, 0.562));
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-image: url("/imagens/fundo\ verde\ .jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 386px;
+
+
+    }
+
+    .botao {
+        background-image: -webkit-linear-gradient(rgba(82, 214, 82, 0.822), rgba(144, 235, 151, 0.705), rgba(0, 128, 0, 0.562));
+        box-shadow: 2px 4px 15px rgb(255, 255, 255);
+        padding: 1%;
+        color: rgba(27, 68, 11, 0.774);
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 71.5%;
+        margin-left: 64%;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px rgb(225, 235, 232);
+        border: none;
+        position: fixed;
+    }
+
+    .telapai {
+
+        text-align: center;
+        width: 60%;
+        height: 350px;
+        background: rgba(226, 238, 228, 0.432);
+        margin-left: 40%;
+        box-shadow: 9px 8px 15px rgba(7, 7, 6, 0.493);
+        margin-top: 10%;
+
+    }
+
+    p {
+
+        font-size: 17.7px;
+        font-weight: bolder;
+        margin-left: -7% !important;
+    }
+
+    .testar {
+        font-size: 14px !important;
+        margin-left: -1% !important;
+        margin-top: -12%;
+    }
+
+    #nome {
+
+        font-size: 13px;
+        margin-left: 37% !important;
+        font-weight: bolder;
+    }
+
+    #colab {
+        position: fixed;
+        margin-left: 1% !important;
+        margin-top: -3px;
+    }
+
+
+
+    button {
+        font-size: 13px;
+        background-image: linear-gradient(rgba(78, 179, 78, 0.74), white, rgba(26, 189, 26, 0.603));
+    }
+
+
+
+
+
+
+}

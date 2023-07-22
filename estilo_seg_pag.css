@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/imagens/fundo_pag_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 72%;
+    height: 50%;
+}
+
+
+
+.botao {
+    background-image: -webkit-linear-gradient(rgba(82, 214, 82, 0.822), rgba(144, 235, 151, 0.705), rgba(0, 128, 0, 0.562));
+    box-shadow: 2px 4px 15px rgb(255, 255, 255);
+    padding: 1%;
+    color: rgba(27, 68, 11, 0.774);
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -300%;
+    margin-left: -1%;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(225, 235, 232);
+    border: none;
+}
+
+.telapai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, rgba(22, 243, 22, 0.39), white);
+    width: 80%;
+    height: 205%;
+    margin: -4% 0% 30% 58%;
+
+}
+
+a {
+    color: rgb(3, 31, 21);
+    text-decoration: none;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    padding-top: 18%;
+    font-weight: bolder;
+    font-size: 150%;
+    text-shadow: 2px 5px 5px green;
+    border: 5px inset rgba(140, 235, 164, 0.692);
+    border-radius: 12%;
+    font-style: oblique;
+}
+
+.consulta {
+    width: 100px;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: -4%;
+
+}
+
+.cadastro {
+    width: 100px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -4%;
+}
+
+.exclusao {
+    width: 130px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -4%;
+}
+
+
+
+.footer:hover,
+.botao:hover {
+    font-size: 12px;
+    color: rgba(7, 34, 2, 0.918);
+    background-image: -webkit-linear-gradient(rgba(247, 252, 247, 0.938), rgba(13, 241, 32, 0.521), rgb(239, 245, 241));
+}
+
+a:hover {
+    color: rgb(237, 241, 236);
+    background: rgba(108, 235, 119, 0.616);
+    text-shadow: 2px 5px 5px black;
+}
+
+@media screen and (max-width:600px) {
+    body {
+
+        background-size: cover;
+        background-position: right;
+        width: 70%;
+        height: 50%;
+    }
+
+
+
+    .botao {
+        margin-left: 65%;
+
+    }
+
+    .telapai {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-image: none;
+        width: 60%;
+        height: 195%;
+        margin: 5% 0 0 45%;
+
+    }
+
+    a {
+        color: rgb(3, 31, 21);
+        text-decoration: none;
+        background: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 60%;
+        height: 140px;
+        text-align: center;
+        padding-top: 45%;
+
+
+
+    }
+
+    .consulta {
+        width: 60px;
+        position: absolute;
+        margin-left: -2%;
+        margin-top: 4.5%;
+
+    }
+
+    .cadastro {
+        width: 70px;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 32%;
+    }
+
+    .exclusao {
+        width: 95px;
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 59%;
+    }
+
+
+
+    .footer:hover,
+    .botao:hover {
+        font-size: 12px;
+        color: rgba(7, 34, 2, 0.918);
+        background-image: -webkit-linear-gradient(rgba(247, 252, 247, 0.938), rgba(13, 241, 32, 0.521), rgb(239, 245, 241));
+    }
+
+    a:hover {
+        color: rgb(237, 241, 236);
+        background: rgba(108, 235, 119, 0.616);
+        text-shadow: 2px 5px 5px black;
+
+
+    }

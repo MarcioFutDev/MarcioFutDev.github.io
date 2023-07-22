@@ -1,0 +1,185 @@
+body {
+    background-image: url("/imagens/background-gcb5bd960f_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.telapai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(165, 216, 165), rgba(255, 255, 0, 0.363), rgba(22, 216, 22, 0.5));
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    box-shadow: 4px 4px 10px gray;
+}
+
+form {
+    margin-left: 10%;
+    margin-bottom: 24%;
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+
+.espace {
+    width: 210px;
+    height: 20px;
+
+}
+
+#title {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.432), rgba(62, 189, 62, 0.233), rgba(255, 255, 255, 0.411));
+    position: fixed;
+    margin-top: -1.5%;
+    padding: 2%;
+    width: 45.4%;
+    margin-left: -134px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+img {
+    width: 30px;
+}
+
+.botao1 {
+    background-image: -webkit-linear-gradient(rgba(82, 214, 82, 0.822), rgba(144, 235, 151, 0.705), rgba(0, 128, 0, 0.562));
+    box-shadow: 2px 4px 15px rgb(255, 255, 255);
+    padding: 1%;
+    color: rgba(27, 68, 11, 0.774);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -300%;
+    margin-left: -1%;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(225, 235, 232);
+    border: none;
+}
+
+
+.botao1:hover {
+    background-image: -webkit-linear-gradient(rgba(227, 240, 227, 0.822), rgba(164, 197, 16, 0.705), rgba(0, 128, 0, 0.562));
+}
+
+.botao2 {
+    position: absolute;
+    width: 98px;
+    margin-top: 26%;
+    margin-left: -41%;
+    background-image: linear-gradient(rgba(50, 196, 50, 0.61), rgba(228, 213, 5, 0.24), rgba(88, 223, 88, 0.486));
+    box-shadow: 2px 4px 9px rgba(56, 238, 20, 0.877);
+    border-radius: 12%;
+
+
+}
+
+.botao3 {
+    position: absolute;
+    width: 99px;
+    height: 6%;
+    margin-top: 26%;
+    margin-left: -20%;
+    background-image: linear-gradient(rgba(50, 196, 50, 0.61), rgba(228, 213, 5, 0.24), rgba(88, 223, 88, 0.486));
+    box-shadow: 2px 4px 9px rgba(56, 238, 20, 0.877);
+    border-radius: 12%;
+
+}
+
+.botao2:hover,
+.botao3:hover {
+    background-image: linear-gradient(rgba(172, 202, 172, 0.61), rgba(71, 209, 16, 0.801), rgba(226, 233, 226, 0.486));
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-image: url("/imagens/background-gcb5bd960f_1280.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .telapai {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgb(165, 216, 165), rgba(255, 255, 0, 0.363), rgba(22, 216, 22, 0.5));
+        width: 50%;
+        height: 400px;
+        margin-left: 25%;
+        box-shadow: 4px 4px 10px gray;
+    }
+
+    form {
+        margin-left: 6%;
+        margin-bottom: 20%;
+        font-size: 16px;
+        font-weight: bolder;
+
+    }
+
+    .espace {
+        width: 210px;
+        height: 20px;
+
+    }
+
+    #title {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.432), rgba(62, 189, 62, 0.233), rgba(255, 255, 255, 0.411));
+        position: fixed;
+        margin-top: -14.2%;
+        padding: 2%;
+        width: 44.4%;
+        margin-left: -17px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    img {
+        width: 27px;
+        margin-left: -4%;
+        margin-top: 5%;
+    }
+
+    .botao1 {
+        position: fixed;
+        font-size: 12px;
+        margin-top: 81%;
+        margin-left: 44%;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px rgb(225, 235, 232);
+        border: none;
+    }
+
+
+    .botao1:hover {
+        background-image: -webkit-linear-gradient(rgba(227, 240, 227, 0.822), rgba(164, 197, 16, 0.705), rgba(0, 128, 0, 0.562));
+    }
+
+    .botao2 {
+        font-size: small;
+        position: absolute;
+        width: 90px;
+        height: 9%;
+        margin-top: 70%;
+        margin-left: -25%;
+        background-image: linear-gradient(rgba(50, 196, 50, 0.61), rgba(228, 213, 5, 0.24), rgba(88, 223, 88, 0.486));
+        box-shadow: 2px 4px 9px rgba(56, 238, 20, 0.877);
+        border-radius: 12%;
+
+
+    }
+
+    .botao3 {
+        position: absolute;
+        width: 90px;
+        height: 9%;
+        margin-top: 70%;
+        margin-left: 25%;
+        background-image: linear-gradient(rgba(50, 196, 50, 0.61), rgba(228, 213, 5, 0.24), rgba(88, 223, 88, 0.486));
+        box-shadow: 2px 4px 9px rgba(56, 238, 20, 0.877);
+        border-radius: 12%;
+
+    }
+}
