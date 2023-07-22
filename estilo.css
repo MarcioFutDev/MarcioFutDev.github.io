@@ -61,7 +61,7 @@ nav {
 @media screen and (max-width:600px) {
 
     body {
-        background-image: url("/imagens/fundo\ verde\ .jpg");
+       
         background-size: cover;
         background-repeat: no-repeat;
         width: 400px;
