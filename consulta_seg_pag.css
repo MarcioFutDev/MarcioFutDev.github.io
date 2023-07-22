@@ -1,5 +1,5 @@
 body {
-    background-image: url("/imagens/fundo\ verde\ .jpg");
+    background-image: url("fundo_verde .jpg");
     background-repeat: no-repeat;
 
 
@@ -68,7 +68,7 @@ button:hover {
 
 @media screen and (max-width:600px) {
     body {
-        background-image: url("/imagens/fundo\ verde\ .jpg");
+        background-image: url("fundo_verde .jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 386px;
