@@ -83,12 +83,11 @@ button:hover {
 
     body {
 
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
-        background-position: top;
-        width: 150%;
-        height: 100px;
-        margin-bottom: 130%;
+        background-position: center;
+        width: 100%;
+        margin-bottom: 10%;
 
 
 
