@@ -116,7 +116,7 @@ button:hover {
         background: rgba(21, 194, 15, 0.404);
         padding: 10%;
         width: 365px;
-        height: 85px;
+        height: 130px;
         margin-left: 1%;
         margin-top: 45%;
         box-shadow: 5px 5px 12px rgb(9, 10, 2);
@@ -145,7 +145,7 @@ button:hover {
         box-shadow: 2px 2px 15px white;
         font-size: 99%;
         margin-left: 34%;
-        margin-top: 1%;
+        margin-top: 5%;
         background-image: linear-gradient(rgba(112, 122, 112, 0.678), white);
     }
 
