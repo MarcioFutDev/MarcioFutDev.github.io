@@ -1,5 +1,5 @@
 body {
-    background-image: url("/imagens/background-gcb5bd960f_1280.jpg");
+    background-image: url("background-gcb5bd960f_1280.jpg");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -95,7 +95,7 @@ img {
 
 @media screen and (max-width:600px) {
     body {
-        background-image: url("/imagens/background-gcb5bd960f_1280.jpg");
+        background-image: url("background-gcb5bd960f_1280.jpg");
         background-repeat: no-repeat;
         background-position: right;
     }
