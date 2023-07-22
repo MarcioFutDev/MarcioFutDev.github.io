@@ -66,12 +66,14 @@ button:hover {
     background-image: -webkit-linear-gradient(rgba(227, 240, 227, 0.822), rgba(164, 197, 16, 0.705), rgba(0, 128, 0, 0.562));
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     body {
-        background-image: url("fundo_verde .jpg");
+
         background-repeat: no-repeat;
         background-size: cover;
-        height: 386px;
+        height: 500px;
+        width: 50%;
+        margin-bottom: 40%;
 
 
     }
@@ -84,8 +86,8 @@ button:hover {
         border-radius: 10px;
         text-decoration: none;
         font-size: 12px;
-        margin-top: 71.5%;
-        margin-left: 64%;
+        margin-top: 150%;
+        margin-left: 8%;
         font-weight: bolder;
         text-shadow: 2px 2px 5px rgb(225, 235, 232);
         border: none;
@@ -95,12 +97,12 @@ button:hover {
     .telapai {
 
         text-align: center;
-        width: 60%;
-        height: 350px;
+        width: 180%;
+        height: 220px;
         background: rgba(226, 238, 228, 0.432);
-        margin-left: 40%;
+        margin-left: 6%;
         box-shadow: 9px 8px 15px rgba(7, 7, 6, 0.493);
-        margin-top: 10%;
+        margin-top: 120%;
 
     }
 
@@ -120,13 +122,13 @@ button:hover {
     #nome {
 
         font-size: 13px;
-        margin-left: 37% !important;
+        margin-left: 30% !important;
         font-weight: bolder;
     }
 
     #colab {
         position: fixed;
-        margin-left: 1% !important;
+        margin-left: 9% !important;
         margin-top: -3px;
     }
 
@@ -136,10 +138,3 @@ button:hover {
         font-size: 13px;
         background-image: linear-gradient(rgba(78, 179, 78, 0.74), white, rgba(26, 189, 26, 0.603));
     }
-
-
-
-
-
-
-}
