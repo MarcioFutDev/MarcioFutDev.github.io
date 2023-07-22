@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("/imagens/fundo_pag_2.jpg");
+    background-image: url("fundo_pag_2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
