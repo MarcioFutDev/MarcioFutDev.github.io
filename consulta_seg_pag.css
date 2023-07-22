@@ -69,11 +69,10 @@ button:hover {
 @media screen and (max-width:768px) {
     body {
 
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 500px;
-        width: 50%;
-        margin-bottom: 40%;
+       background-repeat: no-repeat;
+       background-position: right;
+       width: 50%;
+
 
 
     }
