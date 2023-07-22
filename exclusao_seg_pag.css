@@ -66,12 +66,12 @@ button:hover {
     background-image: -webkit-linear-gradient(rgba(227, 240, 227, 0.822), rgba(164, 197, 16, 0.705), rgba(0, 128, 0, 0.562));
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     body {
 
-        background-repeat: no-repeat;
         background-size: cover;
-        height: 433px;
+        height: 420px;
+        margin-bottom: 23%;
 
 
     }
@@ -83,9 +83,9 @@ button:hover {
         color: rgba(27, 68, 11, 0.774);
         border-radius: 10px;
         text-decoration: none;
-        font-size: 12px;
-        margin-top: 57%;
-        margin-left: 63%;
+        font-size: 20px;
+        margin-top: 160%;
+        margin-left: 40%;
         font-weight: bolder;
         text-shadow: 2px 7px 3px rgba(225, 235, 232, 0.034);
         border: none;
@@ -95,12 +95,12 @@ button:hover {
     .telapai {
 
         text-align: center;
-        width: 60%;
+        width: 90%;
         height: 250px;
         background: rgba(226, 238, 228, 0.432);
-        margin-left: 40%;
+        margin-left: 5%;
         box-shadow: 9px 8px 15px rgba(7, 7, 6, 0.493);
-        margin-top: 10%;
+        margin-top: 65%;
 
     }
 
@@ -119,16 +119,17 @@ button:hover {
 
     #nome {
 
-        font-size: 12.5px;
-        margin-left: 36.9% !important;
+        font-size: 14px;
+        margin-left: 40% !important;
         font-weight: bolder;
-        margin-top: 5.5%;
+        margin-top: 61px;
     }
 
     #colab {
         position: fixed;
-        margin-left: 0.5% !important;
-        margin-top: -3px;
+        margin-left: 1% !important;
+        margin-top: 40px;
+        font-size: 23px;
     }
 
 
@@ -136,7 +137,8 @@ button:hover {
     button {
 
 
-        font-size: 13px;
+        font-size: 15px;
+        margin-top: 30%;
         background-image: linear-gradient(rgba(78, 179, 78, 0.74), white, rgba(26, 189, 26, 0.603));
 
     }
