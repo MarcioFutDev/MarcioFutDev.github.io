@@ -1,11 +1,11 @@
 body {
 
-    background-image: url("/imagens/background-gcb5bd960f_1280.jpg");
+    background-image: url("background-gcb5bd960f_1280.jpg");
     background-size: cover;
 }
 
 header {
-    background-image: url("/imagens/fundo\ verde\ .jpg");
+    background-image: url("fundoverde.jpg");
     background-size: cover;
     padding-top: 10px;
     text-align: center;
